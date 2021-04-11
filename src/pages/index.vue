@@ -26,9 +26,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "nuxt-composition-api";
+import { defineComponent } from 'nuxt-composition-api'
 
-export default defineComponent({});
+export default defineComponent({})
 </script>
 
 <style>
