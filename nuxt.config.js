@@ -3,6 +3,9 @@ export default {
     devtools: true,
   },
   srcDir: 'src/',
+  dir: {
+    static: '../public',
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -51,7 +54,9 @@ export default {
   axios: {},
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    dir: '../posts',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
