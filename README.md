@@ -1,4 +1,4 @@
-# nucont
+# nuxt-content-template
 
 ## Build Setup
 

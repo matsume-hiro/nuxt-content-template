@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">nucont</h1>
+      <h1 class="title">nuxt-content-template</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -26,9 +26,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'nuxt-composition-api'
+import { defineComponent } from 'nuxt-composition-api';
 
-export default defineComponent({})
+export default defineComponent({});
 </script>
 
 <style>
